@@ -66,36 +66,49 @@
 24 种技能划分为四大经典生理与心理象限，既可作为后台常驻被动触发，也可随时主动显式召唤：
 
 ```mermaid
-mindmap
-  root((思维阁 24 技能))
-    智力 (Intellect)
-      逻辑思维 Logic
-      博学多闻 Encyclopedia
-      能说会道 Rhetoric
-      故弄玄虚 Drama
-      标新立异 Conceptualization
-      见微知著 Visual Calculus
-    精神 (Psyche)
-      平心定气 Volition
-      内陆帝国 Inland Empire
-      通情达理 Empathy
-      争强好胜 Authority
-      同舟共济 Esprit de Corps
-      循循善诱 Suggestion
-    体质 (Physique)
-      钢筋铁骨 Endurance
-      坚忍不拔 Pain Threshold
-      强身健体 Physical Instrument
-      食髓知味 Electrochemistry
-      天人感应 Shivers
-      疑神疑鬼 Half Light
-    运动 (Motorics)
-      眼明手巧 Hand-Eye Coordination
-      五感发达 Perception
-      反应速度 Reaction Speed
-      鬼祟玲珑 Savoir Faire
-      能工巧匠 Interfacing
-      从容自若 Composure
+flowchart TD
+    Core(["🍸 极乐迪斯科 24 思维技能"])
+    
+    subgraph Intellect ["智力 (Intellect)"]
+        I1["逻辑思维 Logic"]
+        I2["博学多闻 Encyclopedia"]
+        I3["能说会道 Rhetoric"]
+        I4["故弄玄虚 Drama"]
+        I5["标新立异 Conceptualization"]
+        I6["见微知著 Visual Calculus"]
+    end
+    
+    subgraph Psyche ["精神 (Psyche)"]
+        P1["平心定气 Volition"]
+        P2["内陆帝国 Inland Empire"]
+        P3["通情达理 Empathy"]
+        P4["争强好胜 Authority"]
+        P5["同舟共济 Esprit de Corps"]
+        P6["循循善诱 Suggestion"]
+    end
+    
+    subgraph Physique ["体质 (Physique)"]
+        B1["钢筋铁骨 Endurance"]
+        B2["坚忍不拔 Pain Threshold"]
+        B3["强身健体 Physical Instrument"]
+        B4["食髓知味 Electrochemistry"]
+        B5["天人感应 Shivers"]
+        B6["疑神疑鬼 Half Light"]
+    end
+    
+    subgraph Motorics ["运动 (Motorics)"]
+        M1["眼明手巧 Hand-Eye"]
+        M2["五感发达 Perception"]
+        M3["反应速度 Reaction Speed"]
+        M4["鬼祟玲珑 Savoir Faire"]
+        M5["能工巧匠 Interfacing"]
+        M6["从容自若 Composure"]
+    end
+
+    Core --> Intellect
+    Core --> Psyche
+    Core --> Physique
+    Core --> Motorics
 ```
 
 <details open>
