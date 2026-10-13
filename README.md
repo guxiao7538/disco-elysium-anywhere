@@ -7,13 +7,13 @@
 
 <p align="center">
   <b>极乐迪斯科风格多平台 AI Agent 技能系统 (RPG Persona & Thought Cabinet Engine)</b><br>
-  24 个独特的神经质思维技能，在你的每一次终端对话与编程中苏醒。原生适配 Claude Code、Cursor、Codex。
+  24 个独特的神经质思维技能，在你的每一次终端对话与编程中苏醒。原生适配 Workbuddy、DeepseekHarness、Cursor、Claude Code 等主流 Agent 环境。
 </p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Persona_Engine-24_Unique_Skills-991B1B?style=flat-square" alt="24 Skills" />
   <img src="https://img.shields.io/badge/Dual_Check-Red_%26_White_Checks-D97706?style=flat-square" alt="Dice Checks" />
-  <img src="https://img.shields.io/badge/Platform-Claude_Code_%7C_Cursor_%7C_Codex-4F46E5?style=flat-square" alt="Multi-Platform" />
+  <img src="https://img.shields.io/badge/Agent-Universal_Compatible-4F46E5?style=flat-square" alt="Universal Agent" />
   <img src="https://img.shields.io/badge/Aesthetic-Revachol_Expressionism-059669?style=flat-square" alt="Style" />
   <img src="https://img.shields.io/badge/License-MIT-blue?style=flat-square" alt="License" />
 </p>
